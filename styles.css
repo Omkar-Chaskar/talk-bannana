@@ -1,0 +1,59 @@
+
+
+:root {
+    --primary-color:#F2C94C;
+
+}
+
+body {
+    font-family: 'Kalam', cursive;
+    color: #333333;
+    margin: 0rem;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+    width: 550px;
+    margin: auto;
+}
+
+textarea {
+    resize:none;
+    font-family: 'Kalam', cursive;
+    display: block;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    margin: 4px 2px;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-family: 'Kalam', cursive;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: 'Kalam', cursive;
+    padding: 1rem;
+}
+
+
+
